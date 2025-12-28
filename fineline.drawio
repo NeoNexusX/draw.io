@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.9">
+  <diagram name="第 1 页" id="XNEqYe1l-6JabOfD_0Cr">
+    <mxGraphModel dx="1419" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z2SF8Ox9UkCt7oGfHZ5Q-24" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="输入 预处理过后的质谱图像 " vertex="1">
+          <mxGeometry height="54" width="158" x="107" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2SF8Ox9UkCt7oGfHZ5Q-25" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="对 质谱图像 执行 FFT 变换" vertex="1">
+          <mxGeometry height="54" width="183" x="94.5" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2SF8Ox9UkCt7oGfHZ5Q-26" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="计算频域掩码参数&#xa;fill_distance, fill_width" vertex="1">
+          <mxGeometry height="78" width="214" x="79" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2SF8Ox9UkCt7oGfHZ5Q-27" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="构建频域掩码 &#xa;process_image_with_frequency_mask" vertex="1">
+          <mxGeometry height="64" width="262" x="55" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2SF8Ox9UkCt7oGfHZ5Q-28" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="重建图像并乘以 抑制掩码" vertex="1">
+          <mxGeometry height="54" width="258" x="57" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2SF8Ox9UkCt7oGfHZ5Q-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="返回结果" vertex="1">
+          <mxGeometry height="54" width="124" x="124" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2SF8Ox9UkCt7oGfHZ5Q-30" edge="1" parent="1" source="Z2SF8Ox9UkCt7oGfHZ5Q-24" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Z2SF8Ox9UkCt7oGfHZ5Q-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z2SF8Ox9UkCt7oGfHZ5Q-31" edge="1" parent="1" source="Z2SF8Ox9UkCt7oGfHZ5Q-25" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Z2SF8Ox9UkCt7oGfHZ5Q-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z2SF8Ox9UkCt7oGfHZ5Q-32" edge="1" parent="1" source="Z2SF8Ox9UkCt7oGfHZ5Q-26" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Z2SF8Ox9UkCt7oGfHZ5Q-27" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z2SF8Ox9UkCt7oGfHZ5Q-33" edge="1" parent="1" source="Z2SF8Ox9UkCt7oGfHZ5Q-27" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Z2SF8Ox9UkCt7oGfHZ5Q-28" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z2SF8Ox9UkCt7oGfHZ5Q-34" edge="1" parent="1" source="Z2SF8Ox9UkCt7oGfHZ5Q-28" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Z2SF8Ox9UkCt7oGfHZ5Q-29" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
