@@ -340,10 +340,10 @@
           <mxGeometry height="25" width="54" y="12.5" as="geometry" />
         </mxCell>
         <mxCell id="SPAJl2clOAcdRrhuCbci-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Work&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="85" x="2255" y="610" as="geometry" />
+          <mxGeometry height="60" width="85" x="2255" y="628" as="geometry" />
         </mxCell>
         <mxCell id="SPAJl2clOAcdRrhuCbci-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Work&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="85" x="2255" y="699" as="geometry" />
+          <mxGeometry height="60" width="85" x="2255" y="717" as="geometry" />
         </mxCell>
         <mxCell id="SPAJl2clOAcdRrhuCbci-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;key value&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="130" x="2146.5" y="800" as="geometry" />
